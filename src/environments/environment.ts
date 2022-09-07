@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiEndPoint: 'https://api.weather.gov/gridpoints/DTX/65,33/forecast',
+  liveApiEndPoint: 'https://api.weatherapi.com/v1/forecast.json?key='
 };
 
 /*
